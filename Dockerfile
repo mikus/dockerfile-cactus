@@ -9,3 +9,5 @@ RUN apt-get update && \
     && apt-get clean && rm -rf /var/lib/apt/lists/* && \
     ln -s /usr/bin/yui-compressor /usr/bin/yuicompressor
 
+EXPOSE 8000
+
